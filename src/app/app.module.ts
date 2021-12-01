@@ -4,10 +4,14 @@ import { CloudinaryModule } from '@cloudinary/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FullExampleComponent } from './fullexample.component';
+import { QuickstartComponent } from './quickstart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuickstartComponent,
+    FullExampleComponent,
   ],
   imports: [
     BrowserModule,
