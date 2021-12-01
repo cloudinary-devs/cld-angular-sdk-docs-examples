@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cld-angular-docs": {
+    "cld-angular-sdk-docs-examples": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cld-angular-docs",
+            "outputPath": "dist/cld-angular-sdk-docs-examples",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cld-angular-docs:build:production"
+              "browserTarget": "cld-angular-sdk-docs-examples:build:production"
             },
             "development": {
-              "browserTarget": "cld-angular-docs:build:development"
+              "browserTarget": "cld-angular-sdk-docs-examples:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cld-angular-docs:build"
+            "browserTarget": "cld-angular-sdk-docs-examples:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "cld-angular-docs"
+  "defaultProject": "cld-angular-sdk-docs-examples"
 }
