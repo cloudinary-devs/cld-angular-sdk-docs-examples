@@ -13,7 +13,6 @@ import {fill} from '@cloudinary/url-gen/actions/resize';
 })
 export class AppComponent implements OnInit{
   img: CloudinaryImage;
-  title = 'cld-angular-sdk-docs-examples';
 
   ngOnInit() {
 
@@ -24,8 +23,8 @@ export class AppComponent implements OnInit{
       }
     });
 
-    // Instantiate a CloudinaryImage object for the image with the public ID, 'sample'.
-    this.img = cld.image('sample');
+    // Instantiate a CloudinaryImage object for the image with the public ID, 'docs/models'.
+    this.img = cld.image('docs/models');
 
 
     // Resize to 250 x 250 pixels using the 'fill' crop mode.
