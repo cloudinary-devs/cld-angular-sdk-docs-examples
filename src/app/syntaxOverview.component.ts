@@ -4,19 +4,20 @@ import { Component, OnInit } from '@angular/core';
 import {Cloudinary, CloudinaryImage} from '@cloudinary/url-gen';
 
 // Import any actions required for transformations.
-import {fill} from '@cloudinary/url-gen/actions/resize';
+import {Adjust} from "@cloudinary/url-gen/actions";
+
 
 @Component({
-  selector: 'quickstart-image',
+  selector: 'syntax-overview-image',
   templateUrl: './example.component.html',
   styleUrls: ['./app.component.css']
 })
-export class QuickstartComponent implements OnInit{
+export class SyntaxOverviewComponent implements OnInit{
   img: CloudinaryImage;
 
-  title = 'Crop an image to a square, as shown in the '
-  link = 'https://cloudinary.com/documentation/angular2_quick_start#2_add_cloudinary_to_your_code'
-  heading = 'Quickstart guide'
+  title = 'Replace the most prominent color with light blue, as shown in '
+  link = 'https://cloudinary.com/documentation/angular2_image_transformations#syntax_overview'
+  heading = 'Syntax overview'
 
   ngOnInit() {
 
@@ -28,11 +29,10 @@ export class QuickstartComponent implements OnInit{
     });
 
     // Instantiate a CloudinaryImage object for the image with the public ID, 'docs/models'.
-    this.img = cld.image('docs/models');
+    this.img = cld.image('sample');
 
-
-    // Resize to 250 x 250 pixels using the 'fill' crop mode.
-    this.img.resize(fill().width(250).height(250));
+    // Replace the most prominent color with light blue
+    this.img.adjust(Adjust.replaceColor('lightblue').tolerance(17));
 
   }
 }

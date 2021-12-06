@@ -1,7 +1,18 @@
+:host ::ng-deep img {
+  max-width: 50%;
+}
+
 h2 {
     text-align: center;
 }
 
-advanced-image{
+advanced-image {
     text-align: center;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #FF5050;
+  text-decoration: underline;
 }

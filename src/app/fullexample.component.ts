@@ -22,7 +22,7 @@ import {FocusOn} from "@cloudinary/url-gen/qualifiers/focusOn";
 
 
 @Component({
-  selector: 'fullexample-image',
+  selector: 'full-example-image',
   templateUrl: './example.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -30,7 +30,7 @@ export class FullExampleComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Apply a range of transformations, as shown in the '
-  link = 'https://cloudinary.com/documentation/react2_integration#full_example'
+  link = 'https://cloudinary.com/documentation/angular2_integration#full_example'
   heading = 'Full example'
 
   ngOnInit() {
