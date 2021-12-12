@@ -29,6 +29,9 @@ import { TransformingYourVideoComponent } from './transformingYourVideo.componen
 import { VideoTransformationComponent } from './videoTransformation.component';
 import { MediaEventVideoComponent } from './mediaEventVideo.component';
 import { VideoPluginsComponent } from './videoPlugins.component';
+import { VideoSourcesComponent } from './videoSources.component';
+import { VideoExample1Component } from './videoExample1.component';
+import { VideoExample2Component } from './videoExample2.component';
 
 
 @NgModule({
@@ -58,7 +61,10 @@ import { VideoPluginsComponent } from './videoPlugins.component';
     TransformingYourVideoComponent,
     VideoTransformationComponent,
     MediaEventVideoComponent,
-    VideoPluginsComponent
+    VideoPluginsComponent,
+    VideoSourcesComponent,
+    VideoExample1Component,
+    VideoExample2Component
   ],
   imports: [
     BrowserModule,

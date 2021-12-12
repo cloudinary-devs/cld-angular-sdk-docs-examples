@@ -15,10 +15,6 @@ import {scale} from "@cloudinary/url-gen/actions/resize";
 export class TransformingYourVideoComponent implements OnInit{
   vid: CloudinaryVideo;
 
-  playFunction()
-  {
-    alert("Page is loaded");
-  }
 
   title = 'Resize a video to a width of 400 pixels, as shown in '
   link = 'https://cloudinary.com/documentation/angular2_video_transformations#transforming_your_video'
@@ -30,6 +26,9 @@ export class TransformingYourVideoComponent implements OnInit{
     const cld = new Cloudinary({
       cloud: {
         cloudName: 'demo'
+      },
+      url: {
+        analytics: false
       }
     }); 
 

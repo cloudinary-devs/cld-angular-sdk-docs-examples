@@ -18,11 +18,6 @@ import {AutoFocus} from "@cloudinary/url-gen/qualifiers/autoFocus";
 export class VideoTransformationComponent implements OnInit{
   vid: CloudinaryVideo;
 
-  playFunction()
-  {
-    alert("Page is loaded");
-  }
-
   title = 'Focus on faces in a video, as shown in '
   link = 'https://cloudinary.com/documentation/angular2_video_transformations#video_transformations_with_angular'
   heading = 'Video transformations with Angular'
@@ -33,6 +28,9 @@ export class VideoTransformationComponent implements OnInit{
     const cld = new Cloudinary({
       cloud: {
         cloudName: 'demo'
+      },
+      url: {
+        analytics: false
       }
     });
 

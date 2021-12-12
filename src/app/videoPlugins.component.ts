@@ -28,6 +28,9 @@ export class VideoPluginsComponent implements OnInit{
     const cld = new Cloudinary({
         cloud: {
           cloudName: 'demo'
+        },
+        url: {
+          analytics: false
         }
       }); 
   
