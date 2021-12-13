@@ -25,6 +25,13 @@ import { AutoFormatComponent } from './autoFormat.component';
 import { EffectsComponent } from './effects.component';
 import { OverlaysComponent } from './overlays.component';
 import { ImageOptimizationsComponent } from './imageOptimizations.components';
+import { TransformingYourVideoComponent } from './transformingYourVideo.component';
+import { VideoTransformationComponent } from './videoTransformation.component';
+import { MediaEventVideoComponent } from './mediaEventVideo.component';
+import { VideoPluginsComponent } from './videoPlugins.component';
+import { VideoSourcesComponent } from './videoSources.component';
+import { VideoExample1Component } from './videoExample1.component';
+import { VideoExample2Component } from './videoExample2.component';
 
 
 @NgModule({
@@ -50,7 +57,14 @@ import { ImageOptimizationsComponent } from './imageOptimizations.components';
     AutoFormatComponent,
     EffectsComponent,
     OverlaysComponent,
-    ImageOptimizationsComponent
+    ImageOptimizationsComponent,
+    TransformingYourVideoComponent,
+    VideoTransformationComponent,
+    MediaEventVideoComponent,
+    VideoPluginsComponent,
+    VideoSourcesComponent,
+    VideoExample1Component,
+    VideoExample2Component
   ],
   imports: [
     BrowserModule,
