@@ -18,7 +18,7 @@ export class LazyloadPlaceholderComponent implements OnInit{
   heading = 'Lazyload and placeholder'
 
   // Use the placeholder plugin
-  plugins = [lazyload(), placeholder('predominant-color')]
+  plugins = [lazyload(), placeholder({mode: 'predominant-color'})]
 
   ngOnInit() {
 

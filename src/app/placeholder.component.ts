@@ -18,7 +18,7 @@ export class PlaceholderComponent implements OnInit{
   heading = 'Image placeholders'
 
   // Use the placeholder plugin
-  plugins = [placeholder('blur')]
+  plugins = [placeholder({mode: 'blur'})]
 
   ngOnInit() {
 

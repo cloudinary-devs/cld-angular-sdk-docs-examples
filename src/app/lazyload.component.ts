@@ -18,7 +18,7 @@ export class LazyloadComponent implements OnInit{
   heading = 'Lazy loading'
 
   // Use the lazyload plugin
-  plugins = [lazyload('10px 20px 10px 30px', 0.25)]
+  plugins = [lazyload({rootMargin: '10px 20px 10px 30px', threshold: 0.25})]
 
   ngOnInit() {
 

@@ -18,7 +18,7 @@ export class AccessibilityComponent implements OnInit{
   heading = 'Image accessibility'
 
   // Use the responsive plugin
-  plugins = [accessibility('colorblind')]
+  plugins = [accessibility({mode: 'colorblind'})]
 
   ngOnInit() {
 

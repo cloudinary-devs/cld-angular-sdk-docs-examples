@@ -18,7 +18,7 @@ export class ResponsiveComponent implements OnInit{
   heading = 'Responsive images'
 
   // Use the responsive plugin
-  plugins = [responsive([800, 1000, 1400])]
+  plugins = [responsive({steps: [800, 1000, 1400]})]
 
   ngOnInit() {
 
