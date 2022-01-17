@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {CloudinaryImage} from '@cloudinary/url-gen/assets/CloudinaryImage';
-import URLConfig from '@cloudinary/url-gen/config/URLConfig';
-import CloudConfig from '@cloudinary/url-gen/config/CloudConfig';
+import {CloudinaryImage} from '@cloudinary/url-gen';
+import {URLConfig} from '@cloudinary/url-gen';
+import {CloudConfig} from '@cloudinary/url-gen';
 
 @Component({
   selector: 'asset-instance-image',
