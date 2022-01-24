@@ -17,7 +17,7 @@ export class AccessibilityComponent implements OnInit{
   link = 'https://cloudinary.com/documentation/angular2_image_transformations#image_accessibility'
   heading = 'Image accessibility'
 
-  // Use the responsive plugin
+  // Use the accessibility plugin
   plugins = [accessibility({mode: 'colorblind'})]
 
   ngOnInit() {
