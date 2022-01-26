@@ -30,7 +30,7 @@ export class FullExampleComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Apply a range of transformations, as shown in the '
-  link = 'https://cloudinary.com/documentation/angular2_integration#full_example'
+  link = 'https://cloudinary.com/documentation/angular_integration#full_example'
   heading = 'Full example'
 
   ngOnInit() {

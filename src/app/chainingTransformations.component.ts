@@ -27,7 +27,7 @@ export class ChainingTransformationsComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Chain several transformations together, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#chaining_transformations'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#chaining_transformations'
   heading = 'Chaining transformations'
 
   ngOnInit() {

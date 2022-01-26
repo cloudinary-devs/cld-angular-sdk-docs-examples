@@ -15,7 +15,7 @@ export class QuickstartComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Crop an image to a square, as shown in the '
-  link = 'https://cloudinary.com/documentation/angular2_quick_start#2_add_cloudinary_to_your_code'
+  link = 'https://cloudinary.com/documentation/angular_quick_start#2_add_cloudinary_to_your_code'
   heading = 'Quickstart guide'
 
   ngOnInit() {

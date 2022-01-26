@@ -31,7 +31,7 @@ export class OverlaysComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Add text and image overlays to an image, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#adding_text_and_image_overlays'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#adding_text_and_image_overlays'
   heading = 'Adding text and image overlays'
 
   ngOnInit() {

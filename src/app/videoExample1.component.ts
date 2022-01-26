@@ -23,7 +23,7 @@ export class VideoExample1Component implements OnInit{
   vid: CloudinaryVideo;
 
   title = 'Apply several transformations to the elephant video, as shown in'
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#example_1'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#example_1'
   heading = 'Example 1'
 
   ngOnInit() {

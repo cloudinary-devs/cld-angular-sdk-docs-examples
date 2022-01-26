@@ -18,7 +18,7 @@ export class ResizingCroppingComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Crop an image to keep the faces, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#resizing_and_cropping'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#resizing_and_cropping'
   heading = 'Resizing and cropping'
 
   ngOnInit() {

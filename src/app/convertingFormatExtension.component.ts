@@ -12,7 +12,7 @@ export class ConvertingFormatExtensionComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Deliver a .jpg file in .gif format by changing the extension, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#converting_format_example1a'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#converting_format_example1a'
   heading = 'Converting to another image format'
 
   ngOnInit() {

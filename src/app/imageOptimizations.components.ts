@@ -12,7 +12,7 @@ export class ImageOptimizationsComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Apply automatic format and quality, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#image_optimizations'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#image_optimizations'
   heading = 'Image optimizations'
 
   ngOnInit() {

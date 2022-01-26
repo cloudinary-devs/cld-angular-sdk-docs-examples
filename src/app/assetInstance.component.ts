@@ -12,7 +12,7 @@ export class AssetInstanceComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Specify the Cloudinary configuration when instantiating an asset, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_integration#asset_instance_configuration'
+  link = 'https://cloudinary.com/documentation/angular_integration#asset_instance_configuration'
   heading = 'Asset instance configuration'
 
   ngOnInit() {

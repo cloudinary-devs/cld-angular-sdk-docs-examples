@@ -14,7 +14,7 @@ export class AccessibilityComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Use the accessibility plugin to help color blind viewers, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#image_accessibility'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#image_accessibility'
   heading = 'Image accessibility'
 
   // Use the accessibility plugin

@@ -18,7 +18,7 @@ export class TransformationComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Apply a thumbnail crop with rounded corners, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#image_transformations_with_angular'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#image_transformations_with_angular'
   heading = 'Image transformations with Angular'
 
   ngOnInit() {

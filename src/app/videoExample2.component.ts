@@ -20,7 +20,7 @@ export class VideoExample2Component implements OnInit{
   vid: CloudinaryVideo;
 
   title = 'Apply several transformations to the snowboarding video, as shown in'
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#example_2'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#example_2'
   heading = 'Example 2'
 
   ngOnInit() {

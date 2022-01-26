@@ -16,7 +16,7 @@ export class SyntaxOverviewComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Replace the most prominent color with light blue, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#syntax_overview'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#syntax_overview'
   heading = 'Syntax overview'
 
   ngOnInit() {

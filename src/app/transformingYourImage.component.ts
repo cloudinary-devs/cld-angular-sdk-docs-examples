@@ -16,7 +16,7 @@ export class TransformingYourImageComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Scale an image to a width of 400 pixels, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#transforming_your_image'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#transforming_your_image'
   heading = 'Transforming your image'
 
   ngOnInit() {

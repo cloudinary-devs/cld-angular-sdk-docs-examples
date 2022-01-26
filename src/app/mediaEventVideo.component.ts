@@ -21,7 +21,7 @@ export class MediaEventVideoComponent implements OnInit{
   }
 
   title = 'Call a function on play, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#html_media_events'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#html_media_events'
   heading = 'HTML media events'
 
   ngOnInit() {

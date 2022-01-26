@@ -21,7 +21,7 @@ export class EffectsComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Apply various transformations, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#applying_image_effects_and_filters'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#applying_image_effects_and_filters'
   heading = 'Applying image effects and filters'
 
   ngOnInit() {

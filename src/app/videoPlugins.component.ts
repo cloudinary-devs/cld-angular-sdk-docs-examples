@@ -16,7 +16,7 @@ export class VideoPluginsComponent implements OnInit{
   vid: CloudinaryVideo;
 
   title = 'Use the lazyload plugin, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#plugins'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#plugins'
   heading = 'Plugins'
 
   // Use the lazyload plugin

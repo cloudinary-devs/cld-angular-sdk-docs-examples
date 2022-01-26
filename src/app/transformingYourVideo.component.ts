@@ -17,7 +17,7 @@ export class TransformingYourVideoComponent implements OnInit{
 
 
   title = 'Resize a video to a width of 400 pixels, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#transforming_your_video'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#transforming_your_video'
   heading = 'Transforming your video'
 
   ngOnInit() {

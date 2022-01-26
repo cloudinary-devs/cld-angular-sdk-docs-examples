@@ -12,7 +12,7 @@ export class DeliveryTypeComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Use the fetch delivery type to deliver an image, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#specifying_the_delivery_type'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#specifying_the_delivery_type'
   heading = 'Specifying the delivery type'
 
   ngOnInit() {

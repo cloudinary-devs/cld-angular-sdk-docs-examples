@@ -14,7 +14,7 @@ export class PlaceholderComponent implements OnInit{
   img: CloudinaryImage;
 
   title = 'Use the placeholder plugin to show a blurred image while the image loads, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_image_transformations#image_placeholders'
+  link = 'https://cloudinary.com/documentation/angular_image_transformations#image_placeholders'
   heading = 'Image placeholders'
 
   // Use the placeholder plugin

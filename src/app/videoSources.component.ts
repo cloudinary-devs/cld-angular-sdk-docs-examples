@@ -28,7 +28,7 @@ export class VideoSourcesComponent implements OnInit{
     }];
 
   title = 'Set sources explicitly in a video, as shown in '
-  link = 'https://cloudinary.com/documentation/angular2_video_transformations#sources'
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#sources'
   heading = 'advanced-video properties'
 
   ngOnInit() {

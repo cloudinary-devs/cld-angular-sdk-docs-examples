@@ -1,6 +1,6 @@
 # cld-angular-sdk-docs-examples
 
-Angular examples for the [Cloudinary Angular SDK docs](https://cloudinary.com/documentation/angular2_integration).
+Angular examples for the [Cloudinary Angular SDK docs](https://cloudinary.com/documentation/angular_integration).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
