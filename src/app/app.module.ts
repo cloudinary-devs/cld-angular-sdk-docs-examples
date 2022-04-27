@@ -32,6 +32,8 @@ import { VideoPluginsComponent } from './videoPlugins.component';
 import { VideoSourcesComponent } from './videoSources.component';
 import { VideoExample1Component } from './videoExample1.component';
 import { VideoExample2Component } from './videoExample2.component';
+import { VideosComponent } from './videos/videos.component';
+import { ImagesComponent } from './images/images.component';
 
 
 @NgModule({
@@ -64,7 +66,9 @@ import { VideoExample2Component } from './videoExample2.component';
     VideoPluginsComponent,
     VideoSourcesComponent,
     VideoExample1Component,
-    VideoExample2Component
+    VideoExample2Component,
+    ImagesComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
