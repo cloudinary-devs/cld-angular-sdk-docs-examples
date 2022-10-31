@@ -27,7 +27,7 @@ import {FocusOn} from "@cloudinary/url-gen/qualifiers/focusOn";
   styleUrls: ['./app.component.css']
 })
 export class FullExampleComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Apply a range of transformations, as shown in the '
   link = 'https://cloudinary.com/documentation/angular_integration#full_example'

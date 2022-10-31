@@ -2,22 +2,18 @@ import { Component, OnInit } from '@angular/core';
 
 // Import the Cloudinary classes.
 import {Cloudinary, CloudinaryImage} from '@cloudinary/url-gen';
-
-// Import required actions and qualifiers.
 import {fill} from "@cloudinary/url-gen/actions/resize";
-import {focusOn} from "@cloudinary/url-gen/qualifiers/gravity";
-import {FocusOn} from "@cloudinary/url-gen/qualifiers/focusOn";
-
+import {autoGravity} from "@cloudinary/url-gen/qualifiers/gravity";
 
 @Component({
-  selector: 'resizing-cropping-image',
+  selector: 'auto-gravity-image',
   templateUrl: './example.component.html',
   styleUrls: ['./app.component.css']
 })
-export class ResizingCroppingComponent implements OnInit{
+export class AutoGravityComponent implements OnInit{
   img!: CloudinaryImage;
 
-  title = 'Crop an image to keep the faces, as shown in '
+  title = 'Crop an image to keep the most interesting part, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#resizing_and_cropping'
   heading = 'Resizing and cropping'
 
@@ -30,13 +26,9 @@ export class ResizingCroppingComponent implements OnInit{
       }
     });
 
-    // Instantiate a CloudinaryImage object for the image with the public ID, 'family_bench'.
-    this.img = cld.image('family_bench');
-
-
-    // Apply the transformation.
-    this.img.resize(fill().width(250).height(250).gravity(focusOn(FocusOn.faces())));
-
+    // Instantiate a CloudinaryImage object for the image with the public ID, 'basketball_in_net'.
+    this.img = cld.image('basketball_in_net');
+    this.img.resize(fill().width(200).height(300).gravity(autoGravity()));
 
   }
 }

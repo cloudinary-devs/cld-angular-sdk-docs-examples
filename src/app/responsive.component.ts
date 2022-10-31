@@ -11,7 +11,7 @@ import { responsive } from '@cloudinary/ng';
   styleUrls: ['./app.component.css']
 })
 export class ResponsiveComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Use the responsive plugin to request the best size of image for the viewport, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#responsive_images'

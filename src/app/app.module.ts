@@ -19,6 +19,7 @@ import { DeliveryTypeComponent } from './deliveryType.component';
 import { TransformingYourImageComponent } from './transformingYourImage.component';
 import { ChainingTransformationsComponent } from './chainingTransformations.component';
 import { ResizingCroppingComponent } from './resizingCropping.component';
+import { AutoGravityComponent } from './autoGravity.component';
 import { ConvertingFormatExtensionComponent } from './convertingFormatExtension.component';
 import { ConvertingFormatDeliveryComponent } from './convertingFormatDelivery.component';
 import { AutoFormatComponent } from './autoFormat.component';
@@ -54,6 +55,7 @@ import { ImagesComponent } from './images/images.component';
     TransformingYourImageComponent,
     ChainingTransformationsComponent,
     ResizingCroppingComponent,
+    AutoGravityComponent,
     ConvertingFormatExtensionComponent,
     ConvertingFormatDeliveryComponent,
     AutoFormatComponent,

@@ -12,7 +12,7 @@ import {fill} from '@cloudinary/url-gen/actions/resize';
   styleUrls: ['./app.component.css']
 })
 export class QuickstartComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Crop an image to a square, as shown in the '
   link = 'https://cloudinary.com/documentation/angular_quick_start'

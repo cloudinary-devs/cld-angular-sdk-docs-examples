@@ -9,7 +9,7 @@ import {Cloudinary, CloudinaryImage} from '@cloudinary/url-gen';
   styleUrls: ['./app.component.css']
 })
 export class DeliveryTypeComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Use the fetch delivery type to deliver an image, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#specifying_the_delivery_type'
