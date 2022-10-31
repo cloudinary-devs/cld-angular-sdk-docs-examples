@@ -9,7 +9,7 @@ import {Cloudinary, CloudinaryImage} from '@cloudinary/url-gen';
   styleUrls: ['./app.component.css']
 })
 export class AutoFormatComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Use auto format to deliver a file in the best format for the end device, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#converting_format_example2'

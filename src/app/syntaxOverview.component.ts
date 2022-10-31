@@ -13,7 +13,7 @@ import {Adjust} from "@cloudinary/url-gen/actions";
   styleUrls: ['./app.component.css']
 })
 export class SyntaxOverviewComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Replace the most prominent color with light blue, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#syntax_overview'

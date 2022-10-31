@@ -11,7 +11,7 @@ import { lazyload } from '@cloudinary/ng';
   styleUrls: ['./app.component.css']
 })
 export class LazyloadComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Use the lazyload plugin to delay loading the image until it reaches the viewport, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#lazy_loading'

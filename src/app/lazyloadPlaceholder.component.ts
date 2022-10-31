@@ -11,7 +11,7 @@ import { lazyload, placeholder } from '@cloudinary/ng';
   styleUrls: ['./app.component.css']
 })
 export class LazyloadPlaceholderComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Combine the lazyload and placeholder plugins, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#example_2_combine_lazy_loading_with_a_placeholder'

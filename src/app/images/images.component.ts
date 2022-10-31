@@ -12,7 +12,7 @@ import {fill} from '@cloudinary/url-gen/actions/resize';
   styleUrls: ['./images.component.css']
 })
 export class ImagesComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   ngOnInit() {
 

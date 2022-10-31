@@ -28,7 +28,7 @@ import { center } from '@cloudinary/url-gen/qualifiers/compass';
   styleUrls: ['./app.component.css']
 })
 export class OverlaysComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Add text and image overlays to an image, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#adding_text_and_image_overlays'

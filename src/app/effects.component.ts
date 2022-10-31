@@ -18,7 +18,7 @@ import {outer} from "@cloudinary/url-gen/qualifiers/outlineMode";
   styleUrls: ['./app.component.css']
 })
 export class EffectsComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Apply various transformations, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#applying_image_effects_and_filters'

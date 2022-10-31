@@ -15,7 +15,7 @@ import {FocusOn} from "@cloudinary/url-gen/qualifiers/focusOn";
   styleUrls: ['./app.component.css']
 })
 export class TransformationComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Apply a thumbnail crop with rounded corners, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#image_transformations_with_angular'

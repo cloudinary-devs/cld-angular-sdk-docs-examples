@@ -16,7 +16,7 @@ import {
   styleUrls: ['./app.component.css']
 })
 export class PluginsComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Use all the plugins (lazyload, responsive, accessibility, placeholder), as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#plugins'

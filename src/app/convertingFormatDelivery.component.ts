@@ -9,7 +9,7 @@ import {Cloudinary, CloudinaryImage} from '@cloudinary/url-gen';
   styleUrls: ['./app.component.css']
 })
 export class ConvertingFormatDeliveryComponent implements OnInit{
-  img: CloudinaryImage;
+  img!: CloudinaryImage;
 
   title = 'Deliver a .jpg file in .gif format by setting the delivery format, as shown in '
   link = 'https://cloudinary.com/documentation/angular_image_transformations#converting_format_example1b'
