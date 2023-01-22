@@ -13,7 +13,7 @@ import {scale} from "@cloudinary/url-gen/actions/resize";
   styleUrls: ['./app.component.css']
 })
 export class TransformingYourVideoComponent implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
 
   title = 'Resize a video to a width of 400 pixels, as shown in '

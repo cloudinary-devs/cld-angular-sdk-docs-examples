@@ -12,7 +12,7 @@ import {fill} from '@cloudinary/url-gen/actions/resize';
   styleUrls: ['./videos.component.css']
 })
 export class VideosComponent implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   ngOnInit() {
 

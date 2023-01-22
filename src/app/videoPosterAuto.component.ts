@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
-// Import the Cloudinary classes.
+// In your component.ts, use `@cloudinary/url-gen` to generate your transformations.
+import {Component, OnInit} from '@angular/core';
 import {Cloudinary, CloudinaryVideo} from '@cloudinary/url-gen';
 
 // Import required actions and qualifiers.
@@ -11,29 +10,29 @@ import {Gravity} from "@cloudinary/url-gen/qualifiers";
 import {AutoFocus} from "@cloudinary/url-gen/qualifiers/autoFocus";
 
 @Component({
-  selector: 'transformation-video',
-  templateUrl: './video.component.html',
+  selector: 'poster-auto-video',
+  templateUrl: './videoPosterAuto.component.html',
   styleUrls: ['./app.component.css']
 })
-export class VideoTransformationComponent implements OnInit{
+export class VideoPosterAutoComponent implements OnInit{
   vid!: CloudinaryVideo;
 
-  title = 'Focus on faces in a video, as shown in '
-  link = 'https://cloudinary.com/documentation/angular_video_transformations#video_transformations_with_angular'
-  heading = 'Video transformations with Angular'
+  title = ' Set the cldPoster property to auto, as shown in '
+  link = 'https://cloudinary.com/documentation/angular_video_transformations#the_cldposter_property'
+  heading = 'The cldPoster property'
 
   ngOnInit() {
 
-    // Create a Cloudinary instance and set your cloud name.
+    // Create and configure your Cloudinary instance.
     const cld = new Cloudinary({
-      cloud: {
-        cloudName: 'demo'
-      },
-      url: {
-        analytics: false
-      }
-    });
-
+        cloud: {
+          cloudName: 'demo'
+        },
+        url: {
+          analytics: false
+        }
+      }); 
+  
     // Use the video with public ID, 'docs/walking_talking'.
     this.vid = cld.video('docs/walking_talking');
 

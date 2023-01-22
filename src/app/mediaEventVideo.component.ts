@@ -13,7 +13,7 @@ import {scale} from "@cloudinary/url-gen/actions/resize";
   styleUrls: ['./app.component.css']
 })
 export class MediaEventVideoComponent implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   playFunction()
   {

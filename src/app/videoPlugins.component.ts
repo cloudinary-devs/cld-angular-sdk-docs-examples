@@ -13,7 +13,7 @@ import {
   styleUrls: ['./app.component.css']
 })
 export class VideoPluginsComponent implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   title = 'Use the lazyload plugin, as shown in '
   link = 'https://cloudinary.com/documentation/angular_video_transformations#plugins'

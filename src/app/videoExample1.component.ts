@@ -20,7 +20,7 @@ import {southEast} from "@cloudinary/url-gen/qualifiers/compass";
   styleUrls: ['./app.component.css']
 })
 export class VideoExample1Component implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   title = 'Apply several transformations to the elephant video, as shown in'
   link = 'https://cloudinary.com/documentation/angular_video_transformations#example_1'

@@ -17,7 +17,7 @@ import {Concatenate} from "@cloudinary/url-gen/qualifiers/concatenate";
   styleUrls: ['./app.component.css']
 })
 export class VideoExample2Component implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   title = 'Apply several transformations to the snowboarding video, as shown in'
   link = 'https://cloudinary.com/documentation/angular_video_transformations#example_2'
