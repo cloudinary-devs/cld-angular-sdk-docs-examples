@@ -50,7 +50,7 @@ export class VideoPosterComponent implements OnInit{
     this.vidPoster.resize(fill().width(150).height(150)
     .gravity(Gravity.autoGravity().autoFocus(AutoFocus.focusOn(FocusOn.faces())))) // Crop the video, focusing on the faces.
     .roundCorners(byRadius(20))   // Round the corners.
-    .format('jpg');  // Change the format to JPG
+    .format('jpg');  // Change the format to JPG.
 
   }
 }
