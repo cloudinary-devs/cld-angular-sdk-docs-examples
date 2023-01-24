@@ -31,6 +31,8 @@ import { VideoTransformationComponent } from './videoTransformation.component';
 import { MediaEventVideoComponent } from './mediaEventVideo.component';
 import { VideoPluginsComponent } from './videoPlugins.component';
 import { VideoSourcesComponent } from './videoSources.component';
+import { VideoPosterComponent } from './videoPoster.component';
+import { VideoPosterAutoComponent } from './videoPosterAuto.component';
 import { VideoExample1Component } from './videoExample1.component';
 import { VideoExample2Component } from './videoExample2.component';
 import { VideosComponent } from './videos/videos.component';
@@ -67,6 +69,8 @@ import { ImagesComponent } from './images/images.component';
     MediaEventVideoComponent,
     VideoPluginsComponent,
     VideoSourcesComponent,
+    VideoPosterComponent,
+    VideoPosterAutoComponent,
     VideoExample1Component,
     VideoExample2Component,
     ImagesComponent,

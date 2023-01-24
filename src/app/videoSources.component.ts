@@ -13,7 +13,7 @@ import { auto, vp9 } from '@cloudinary/url-gen/qualifiers/videoCodec';
   styleUrls: ['./app.component.css']
 })
 export class VideoSourcesComponent implements OnInit{
-  vid: CloudinaryVideo;
+  vid!: CloudinaryVideo;
 
   sources = [
     {
