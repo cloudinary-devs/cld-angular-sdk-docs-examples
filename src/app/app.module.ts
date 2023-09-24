@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AssetInstanceComponent } from './assetInstance.component';
 import { FullExampleComponent } from './fullexample.component';
+import { QuickExampleComponent } from './quickexample.component';
 import { QuickstartComponent } from './quickstart.component';
 import { TransformationComponent } from './transformation.component';
 import { PluginsComponent } from './plugins.component';
@@ -43,6 +44,7 @@ import { ImagesComponent } from './images/images.component';
   declarations: [
     AppComponent,
     QuickstartComponent,
+    QuickExampleComponent,
     FullExampleComponent,
     TransformationComponent,
     AssetInstanceComponent,
